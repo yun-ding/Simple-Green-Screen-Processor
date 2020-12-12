@@ -1,0 +1,13 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<h1>Green Screen Processor</h1>
+<body>
+  <p>Upload foreground image (green screen image):
+  <input type="file" id="fgImage" mutiple="false" accept="image/*" onchange="loadForegroundImage()"></p>
+  <p>Upload background image:
+  <input type="file" id="bgImage" mutiple="false" accept="image/*" onchange="loadBackgroundImage()"></p>
+  <p><input type="button" value="create composite" onclick="doGreenScreen()">
+    <input type="button" value="clear the images" onclick="makeClear()"></p>
+  <p><canvas id="fgCanvas"></canvas><canvas id="bgCanvas"></canvas></p>
+  <p><canvas id="cmpstCanvas"></canvas></p>
+</body>

@@ -1,0 +1,27 @@
+canvas{
+  border: 1px solid black;
+}
+
+#fgCanvas{
+  width: 300px;
+}
+
+#bgCanvas{
+  width: 300px;
+}
+
+#cmpstCanvas{
+  width: 600px;
+}
+
+h1{
+  backgound-color: #F0F5F5; 
+  font-family: copperplate;
+  font-size: 36pt;
+}
+
+body{
+  font-family: copperplate;
+  font-size: 14pt;
+  background-color: #e0ebeb;
+}
